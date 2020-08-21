@@ -1,0 +1,89 @@
+#navigator {
+    width: 48vw;
+    height: 100vh;
+    background-color: #1e0436;
+    position: fixed;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#navigator .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.2rem;
+}
+
+#navigator .title img {
+    max-width: 6.4rem;
+    max-height: 6.4rem;
+
+}
+
+#navigator .title .text h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#navigator .title .text span {
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.8rem;
+}
+
+#navigator a {
+    color: #ffffff;
+}
+
+#navigator .link-navigator {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.8rem;
+    padding: 1.2rem;
+    transition: background-color 0.2s;
+    transition: transform 0.2s;
+}
+
+#navigator .link-navigator:hover {
+    background-color: #d9cde4;
+    color: #421b66;
+    transform: translateY(0.12rem);
+    border-right: 3px solid #0dcfff;
+}
+
+#navigator .link-navigator img {
+    max-width: 3.2rem;
+    max-height: 3.2rem;
+}
+
+.navigator .mini-button {
+    width: 3.2rem;
+    height: 3.2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (min-width: 1100px) {
+    #navigator {
+        width: 24vw;
+    }
+
+    #navigator .link-navigator {
+        font-size: 1.2rem;
+    }
+
+    #navigator .link-navigator img {
+        max-width: 4rem;
+        max-height: 4rem;
+    }
+}

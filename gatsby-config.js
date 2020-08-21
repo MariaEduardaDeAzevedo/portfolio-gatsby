@@ -5,6 +5,20 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: 'Maria Eduarda de Azevedo',
+    description: 'Olá, Mundo! Este é o meu portfólio...'
+  },
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-catch-links`,
+    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        color: `#1e0436`,
+        showSpinner: false,
+      },
+    },
+  ],
 }
