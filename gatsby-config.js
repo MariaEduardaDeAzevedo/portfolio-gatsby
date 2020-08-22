@@ -7,12 +7,13 @@
 module.exports = {
   siteMetadata: {
     title: 'Maria Eduarda de Azevedo',
-    description: 'Olá, Mundo! Este é o meu portfólio...'
+    description: 'Olá, Mundo! Este é o meu portfólio...',
+    siteUrl: "https://www.mariaeduardadeazevedo.web.app",
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
-    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {
@@ -20,5 +21,18 @@ module.exports = {
         showSpinner: false,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `GatsbyJS`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        icon: 'src/assets/Icon-512.png'
+      },
+    },
+    `gatsby-plugin-offline`,
   ],
 }

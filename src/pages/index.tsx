@@ -160,7 +160,6 @@ const Home = () => {
                         <IconBox src={icons.c_language} title="Linguagem C"/>
                         <IconBox src={icons.javascript} title="JavaScript"/>
                         <IconBox src={icons.typescript} title="TypeScript"/>
-                        <IconBox src={icons.javascript} title="JavaScript"/>
                         <IconBox src={icons.html} title="HTML5"/>
                         <IconBox src={icons.css} title="CSS3"/>
                         <IconBox src={icons.react} title="React"/>

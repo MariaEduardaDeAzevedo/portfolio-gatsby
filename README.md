@@ -13,4 +13,4 @@ Fiz um blog em conjunto, que pretendo postar de vez em quando, sempre que tiver 
 - [Open Peeps](https://blush.design/collections/open-peeps)
 
 #### Link para o site
-Fiz deploy no Firebase, clique no [link](https://mariaeduardadeazevedo-5765a.firebaseapp.com/) para conferir.
+Fiz deploy no Firebase, clique no [link](https://mariaeduardadeazevedo.firebaseapp.com/) para conferir.

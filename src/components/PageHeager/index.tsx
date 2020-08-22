@@ -25,7 +25,7 @@ const PageHeader = () => {
                     </NavDropdown>
                     <NavDropdown title="Aleatórios" id="random-nav-dropdown">
                         <NavDropdown.Item>
-                            <Nav.Link href="/blog/eu-escolhi-computacao">Eu escolhi Computação</Nav.Link>
+                            <a href="/blog/eu-escolhi-computacao">Eu escolhi Computação</a>
                         </NavDropdown.Item>
                     </NavDropdown>
                 </NavDropdown>
