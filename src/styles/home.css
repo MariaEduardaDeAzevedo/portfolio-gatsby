@@ -45,9 +45,8 @@ html {
 
 #home-page #button-block-menu span,
 #home-page #button-block-hidden span {
-    opacity: 60%;
     text-align: center;
-    background-color: #1e043693;
+    background-color: #1e0436c2;
     color: #ffffff;
     padding: 0.2rem;
     border-radius: 0.8rem;
@@ -72,7 +71,7 @@ html {
 }
 
 #home-page .mini-button:hover {
-    opacity: 60%;
+    opacity: 100%;
 }
 
 #home-page main .sections-block {
