@@ -212,6 +212,24 @@ const Home = () => {
                             title="Ecoleta"
                             href={`${socialNetworks.github}/projeto_NextLevelWeek`}
                         />
+                        <IconBox 
+                            src={icons.python_file} 
+                            description="Programa que identifica e classifica formas em imagens e vídeos utilizando Python e OpenCV." 
+                            title="Reconhecimento de formas"
+                            href={`${socialNetworks.github}/reconhecimento-de-formas`}
+                        />
+                        <IconBox 
+                            src={icons.python_file} 
+                            description="Código em Python3 e também uma aplicação que pode ser executada em linha de comando que gera um gráfico e um relatório acerca da ocorrência de um certo nome no Brasil entre as décadas de 1930 e 2000." 
+                            title="Recorrência de nomes no Brasil"
+                            href={`${socialNetworks.github}/ocorrencia-de-nome-no-brasil`}
+                        />
+                        <IconBox 
+                            src={icons.web} 
+                            description="Código do projeto do meu porfólio feito com Gatsby (este aqui que você está vendo)." 
+                            title="Portfólio com Gatsby"
+                            href={`${socialNetworks.github}/ocorrencia-de-nome-no-brasil`}
+                        />
                     </Section>
                     <Section 
                         id="contatos"

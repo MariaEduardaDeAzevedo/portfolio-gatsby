@@ -14,8 +14,10 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@types/file-saver": "^2.0.1",
     "@types/react-typing-animation": "^1.6.2",
     "bootstrap": "^4.5.2",
+    "file-saver": "^2.0.2",
     "gatsby": "^2.24.47",
     "gatsby-plugin-catch-links": "^2.3.11",
     "gatsby-plugin-manifest": "^2.4.23",
@@ -25,6 +27,8 @@
     "gatsby-plugin-sitemap": "^2.4.11",
     "gatsby-source-filesystem": "^2.3.24",
     "gatsby-transformer-remark": "^2.8.28",
+    "html2canvas": "^1.0.0-rc.7",
+    "jspdf": "^2.1.0",
     "lodash": "^4.17.20",
     "react": "^16.12.0",
     "react-animations": "^1.0.0",

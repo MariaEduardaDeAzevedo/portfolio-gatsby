@@ -1,0 +1,42 @@
+#curriculum-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.6rem;
+    width: 100vw;
+}
+
+#curriculum-section .title {
+    border-bottom: 1px solid;
+    margin-bottom: 1.2rem;
+}
+
+#curriculum-section .description .childreen {
+    max-width: 80vw;
+}
+
+@media (min-width: 1100px) {
+    #curriculum-section {
+        flex-direction: row;
+        margin-bottom: 3.2rem;
+    }
+
+    #curriculum-section .title {
+        border-bottom: none;
+        justify-content: space-between;
+        padding: 1.2rem;
+        width: 20vw;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    #curriculum-section .description {
+        padding: 2.4rem;
+        width: 80vw;    
+        border-left: 1px solid;
+    }
+
+    #curriculum-section .description .childreen {
+        max-width: 72vw;
+    }
+}

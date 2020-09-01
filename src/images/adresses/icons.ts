@@ -25,6 +25,7 @@ const icons = {
     java_file: "https://image.flaticon.com/icons/svg/2721/2721271.svg",
     html_file: "https://image.flaticon.com/icons/svg/2721/2721267.svg",
     css_file: "https://image.flaticon.com/icons/svg/2721/2721214.svg",
+    cv: "https://image.flaticon.com/icons/svg/3135/3135731.svg",
 }
 
 export default icons;
